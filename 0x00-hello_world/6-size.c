@@ -1,8 +1,8 @@
 #include <stdio.h>
-
-/*
- * main - Entry point
- *
+/**
+ * main - display sizeof
+ *print the size of char, int ,long int,long long int and float
+ *use sizeof() operator
  * Return: Always 0 (Success)
  */
 int main(void)
