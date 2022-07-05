@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * Print_alphabet
- *
- * Return: Always 0.
+ * print_alphabet-function
+ * print alphabet Success
+ * return 0 Always
  */
-
 void print_alphabet(void)
 {
 	char alpbt = 'a';
