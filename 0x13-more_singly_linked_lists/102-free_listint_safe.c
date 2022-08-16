@@ -9,19 +9,19 @@
 size_t free_listint_safe(listint_t **h)
 {
 	size_t len = 0;
-	int d_f;
-	listint_t *tmp;
+	int diff;
+	listint_t *temp;
 
 	if (!h || !*h)
 		return (0);
 
 	while (*h)
 	{
-		d_f = *h - (*h)->next;
-		if (d_f > 0)
+		diff = *h - (*h)->next;
+		if (diff > 0)
 		{
-			tmp = (*h)->next;
-			*h = tmp;
+			temp = (*h)->next;
+			*h = temp;
 			len++;
 		}
 		else
