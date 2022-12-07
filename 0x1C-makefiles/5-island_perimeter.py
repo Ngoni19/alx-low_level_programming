@@ -18,7 +18,6 @@ def island_perimeter(grid):
         Grid cells are connected horizontally/vertically (not diagonally).
         Grid is rectangular, width and height don’t exceed 100
         Grid is completely surrounded by water, and there is one island.
-        
     Returns: island's P_meter
     """
     Rows = len(grid)
